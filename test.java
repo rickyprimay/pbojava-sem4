@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class Test{
@@ -58,7 +59,39 @@ class Test{
                 if (j==10){
                     break;
                 }
+            
+            
+            Scanner firstMenu = new Scanner(System.in);
+                String yes="Y";
+                if(yes=="y" || yes=="Y"){
+                    int choose = 0;
+                    System.out.println("=== Menu ===");
+                    System.out.println("1. Sum      ");
+                    System.out.println("2. Minus    ");
+                    System.out.println("3. Multiply ");
+                    System.out.println("4. Divide   ");
+                    System.out.println("5. Exit     ");
+                    System.out.println("============");
+                    System.out.println("Choose");
+
+                    choose=firstMenu.nextInt();
+                    
+                    if(choose == 1){
+                        System.out.println("u choose "+choose);
+                    }else if (choose == 2){
+                        System.out.println("u choose "+choose);
+                    }else if (choose == 3){
+                        System.out.println("u choose "+choose);
+                    }else if (choose == 4){
+                        System.out.println("u choose "+choose);
+                    }else {
+                        break;
+                    }
+
+                    
+                }
             }
+            
         }
 
     }
